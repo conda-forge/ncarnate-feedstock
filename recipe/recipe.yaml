@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.2.0"
+  version: "2.2.1"
 
 package:
   name: ncarnate
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/n/ncarnate/ncarnate-${{ version }}.tar.gz
-  sha256: e52c6a075c0ed3dc9a4a7fcb52689ec40228dc1ef6b960ec5bd10fcf6f998baa
+  sha256: 213760512d0272a97148728463c41dc49c2142dd70b95fc11e8ce3df9603d98e
 
 build:
   number: 0

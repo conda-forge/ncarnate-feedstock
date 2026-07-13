@@ -11,7 +11,7 @@ Summary: Losslessly recompress netCDF/HDF5 and convert HDF4/HDF-EOS2 granules to
 
 Development: https://github.com/ErickShepherd/ncarnate
 
-Documentation: https://github.com/ErickShepherd/ncarnate#readme
+Documentation: https://ncarnate.readthedocs.io/en/latest/
 
 ncarnate reads legacy scientific data — HDF4/HDF-EOS2 granules (AMSR-E,
 MODIS) and netCDF3/netCDF4/HDF5 — and writes recompressed, CF-annotated
