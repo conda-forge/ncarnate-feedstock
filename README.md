@@ -164,6 +164,3 @@ Feedstock Maintainers
 
 * [@ErickShepherd](https://github.com/ErickShepherd/)
 
-
-<!-- dummy commit to enable rerendering -->
-
