@@ -58,31 +58,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `ncarnate` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install ncarnate
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install ncarnate
 ```
 
-It is possible to list all of the versions of `ncarnate` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add ncarnate
+# for installing globally
+pixi global install ncarnate
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `ncarnate` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search ncarnate --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search ncarnate --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search ncarnate --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -94,6 +136,8 @@ mamba repoquery whoneeds ncarnate --channel conda-forge
 # List dependencies of `ncarnate`:
 mamba repoquery depends ncarnate --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
@@ -163,7 +207,4 @@ Feedstock Maintainers
 =====================
 
 * [@ErickShepherd](https://github.com/ErickShepherd/)
-
-
-<!-- dummy commit to enable rerendering -->
 
